@@ -70,7 +70,8 @@ void quick_sort_recursive(int *array, ssize_t first, ssize_t last, int size)
 }
 
 /**
- * quick_sort_hoare - Initiates the Quick Sort algorithm using the Hoare scheme.
+ * quick_sort_hoare - Initiates the Quick Sort algorithm using
+ * the Hoare scheme.
  *
  * @array: The array to be sorted.
  * @size: Size of the array.
