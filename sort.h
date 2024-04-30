@@ -36,6 +36,9 @@ void split_data_for_merge(int *array, int *buffer, int min, int max, int size);
 void print_array_range(int *array, int start, int end);
 void merge_sorted_arrays(int *array, int *buffer, int minL, int maxL, int minR, int maxR);
 void copy_buffer(int *src, int *dst, int size);
-
+void heap_sort(int *array, size_t size);
+void radix_sort(int *array, size_t size);
+void print_array(const int *array, size_t size);
+void bitonic_sort(int *array, size_t size);
 
 #endif /* SORT_H */

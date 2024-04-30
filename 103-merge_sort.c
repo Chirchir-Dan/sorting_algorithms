@@ -35,7 +35,8 @@ void copy_buffer(int *src, int *dst, int size)
  *
  * Return: No Return
  */
-void merge_sorted_arrays(int *array, int *buffer, int minL, int maxL, int minR, int maxR)
+void merge_sorted_arrays(
+		int *array, int *buffer, int minL, int maxL, int minR, int maxR)
 {
 	int i = minL, j = minR, k = minL;
 
@@ -78,7 +79,8 @@ void print_array_range(int *array, int start, int end)
 }
 
 /**
- * split_data_for_merge - Recursive function to split data into merge tree.
+ * split_data_for_merge - Recursive function to split data into
+ * merge tree.
  *
  * @array: Array of data to be split.
  * @buffer: Auxiliary array used for merging.
